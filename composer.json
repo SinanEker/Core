@@ -1,1 +1,1 @@
-{"require": {"rmccue/requests": ">=1.0","klein/klein": "2.0.*", "ebidtech/compress": "@stable"}}
+{"require": {"rmccue/requests": ">=1.0","klein/klein": "2.0.*", "ebidtech/compress": "@stable", "coderockr/parse": "dev-master"}}
