@@ -1,0 +1,1 @@
+<title><?php echo $this->escape($this->title) ?></title>
