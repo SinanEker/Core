@@ -25,7 +25,8 @@
     {
         "psr-0":
         {
-            "Core\\": "src/"
+            "Core\\": "src/",
+            "Core\\Interfaces": "src/"
         }
     }
 }
