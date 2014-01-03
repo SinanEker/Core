@@ -6,11 +6,11 @@ class Controller
     
     private $options = [];
     
-    const PARSE_CLOUD_APPID = "igTNl3AJXTirReTIcLQzKWCsgXNgsSPlsBlsdynh";
+    const PARSE_CLOUD_APPID = "";
+
+    const PARSE_CLOUD_MASTERKEY = "";
     
-    const PARSE_CLOUD_MASTERKEY = "sAfRDjo6TiqUA8m3qgCM4IQDEwalEYrGKFbYlsKC";
-    
-    const PARSE_CLOUD_RESTKEY = "R9NYyqk0YMA4iytgDBqybHYCm9up3i36AyNt2IRI";
+    const PARSE_CLOUD_RESTKEY = "";
     
     const PARSE_CLOUD_PARSEURL = "https://api.parse.com/1/";
     
