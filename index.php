@@ -1,3 +1,6 @@
 <?php 
 require_once __DIR__ . '/vendor/autoload.php';
-echo "hi";
+
+
+$klein = new \Klein\Klein();
+var_dump($klein);
