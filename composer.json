@@ -1,26 +1,8 @@
 {
-    "name": "sinaneker/Core",
-    "description": "A small php framework that uses klein.php. Features: router, mvc, psr0, oop, namespaced",
-    "keywords": [
-        "router",
-        "klein.php",
-        "framework",
-        "mvc"
-    ],
-    "license": "MIT",
-    "authors":
-    [
-        {
-            "name": "Sinan Eker",
-            "email": "selsyourself@gmail.com",
-            "role": "Creator/Developer"
-        }
-    ],
-    "require":
-    {
-        "php": ">=5.3.0",
-        "klein.php": ">=1.2.0"
-    },
+	"require":
+	{
+		"klein/klein":"2.0.*"
+	},
     "autoload":
     {
         "psr-0":
