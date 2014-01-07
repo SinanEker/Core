@@ -2,6 +2,8 @@
 namespace Core;
 class View
 {
+	const DEFAULT_RENDER_FILE = "/Main.php";
+	
     protected $controller;
     
     public function __construct(\Core\Classes\Controller $controller)
@@ -16,7 +18,7 @@ class View
         {
             $args = array_merge($args, $options);
         }
-        $service->render(VIEWS_PATH."/Main.php", $args);
+        $service->render(VIEWS_PATH.self::DEFAULT_RENDER_FILE, $args);
     }
     
     public function hold($method = "GET", $route = "/", callable $function = null)
@@ -40,7 +42,7 @@ class View
         return $this;
     }
     
-    public function dispatch()
+    final public function dispatch()
     {
         $this->controller->getKlein()->dispatch();
         return $this;
