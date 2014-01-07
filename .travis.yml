@@ -1,1 +1,8 @@
-language: php 
+language: php
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+before_install:
+  - composer require klein/klein v2.0.x 
+
