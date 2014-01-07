@@ -7,3 +7,7 @@ env:
   - KLEIN_VERSION="v2.0.x"
 before_install:
   - composer require klein/klein ${KLEIN_VERSION}
+<<<<<<< HEAD
+=======
+
+>>>>>>> dbea843a09840ae76336b8d50a0214a4f4926436
