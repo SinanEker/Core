@@ -10,5 +10,9 @@
             "Core\\": "src/",
             "Core\\Interfaces": "src/"
         }
+    },
+    "require-dev":
+    {
+        "phpdocumentor/phpdocumentor": "2.*"
     }
 }

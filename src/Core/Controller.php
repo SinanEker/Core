@@ -1,5 +1,13 @@
 <?php
 namespace Core;
+
+/*
+ * The Controller class.
+ * 
+ * @api
+ * 
+ * @package Core
+ * */
 class Controller
 {    
     protected $klein;
