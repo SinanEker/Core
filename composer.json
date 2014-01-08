@@ -1,18 +1,11 @@
 {
-	"require":
-	{
-		"klein/klein":"2.0.*"
-	},
-    "autoload":
-    {
-        "psr-0":
-        {
-            "Core\\": "src/",
-            "Core\\Interfaces": "src/"
-        }
-    },
-    "require-dev":
-    {
-        "phpdocumentor/phpdocumentor": "2.*"
-    }
+   "autoload" : {
+      "psr-0" : {
+         "Core\\" : "src/",
+         "Core\\Interfaces" : "src/"
+      }
+   },
+   "require" : {
+      "klein/klein" : "2.0.*"
+   }
 }
